@@ -29,6 +29,7 @@ body {
 .container {
   width: 1920px;
   margin: 0 auto;
+  border: 1px solid #afb1b8;
 }
 
 .header {
@@ -43,45 +44,30 @@ body {
   display: block;
   margin-left: 20px;
   margin-top: 21px;
-  max-width: 260px;
-  max-height: 65px;
-}
-
-.logo:hover {
-  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 8px;
 }
 
 .products-section {
   margin-top: 40px;
 }
 
-.btns-group {
-  display:inline-flex;
-}
-
 .btn {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 15px;
   background-color: #31b447;
   color: #ffffff;
-  min-width: 134px;
+  width: 134px;
   height: 50px;
   border-radius: 8px;
-  border: none;
+  border: 0px;
 }
 
-.btn:hover,
-.btn:focus,
-.btn:checked {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 2px solid #31b447;
+.download-svg {
+  width: 29px;
+  height: 29px;
+  fill: #ffffff;
 }
 
-.btn:hover .modal-form-svg-icon {
-  fill: #31b447;
+.btn-svg {
+  height: 30px;
+  fill: #ffffff;
 }
 
 .visually-hidden {
@@ -100,9 +86,8 @@ body {
   height: 446px;
   margin-left: 20px;
   margin-bottom: 15px;
-   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
-  backdrop-filter: 4px;
   box-sizing: border-box;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
 }
 
 .archive-title {
@@ -149,16 +134,3 @@ body {
   display: inline-block;
   margin-bottom: 30px;
 }
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.modal-form-svg-icon {
-  margin-top: 25px;
-  fill: #ffffff;
-  transform: translateY(-50%);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
